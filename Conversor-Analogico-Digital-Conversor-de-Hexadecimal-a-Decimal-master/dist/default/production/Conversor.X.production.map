@@ -1,0 +1,91 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Jan 29 21:02:33 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0001ee
+                   .cinit    romdata   0x0000f7    program   0x000004
+.config_2007_BUILD/DEFAULT/PRODUCTION/CONVERS       code   0x002007    program   0x000002
+.config_2008_BUILD/DEFAULT/PRODUCTION/CONVERS       code   0x002008    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000f8      
+                            0x002007    0x002008      
+            251 out of 8455 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   AJUSTE   0x000069    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                 CONTINUE   0x000066    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                CONTINUE2   0x000087    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                CONTINUE3   0x000012    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+               CONVERSION   0x000025    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    DELAY   0x0000df    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                      DOS   0x0000e1    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                     DOSx   0x0000ec    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                  EJECUTA   0x0000d1    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                 ENTRADAS   0x000006    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                      FIN   0x00008b    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    FIN_M   0x000051    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                        I   0x0000a1    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                       I2   0x0000b7    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                   INICIO   0x00000d    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                   LCD_IN   0x0000c5    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+              LCD_INICIAR   0x000099    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                   MANDAR   0x0000d7    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                     NEXT   0x0000da    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    PAUSA   0x0000e8    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    RESTA   0x000057    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+               SampleTime   0x000001    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    TRESx   0x0000ea    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                      UNO   0x0000e3    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                     UNOx   0x0000ee    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+             _.org_0_0004   0x000004    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+             _.org_0_0034   0x000034    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+             _.org_0_0050   0x000050    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+             _.org_0_009E   0x00009e    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               SampleTime   0x000001    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+             _.org_0_0004   0x000004    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                 ENTRADAS   0x000006    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                   INICIO   0x00000d    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                CONTINUE3   0x000012    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+               CONVERSION   0x000025    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+             _.org_0_0034   0x000034    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+             _.org_0_0050   0x000050    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    FIN_M   0x000051    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    RESTA   0x000057    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                 CONTINUE   0x000066    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                   AJUSTE   0x000069    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                CONTINUE2   0x000087    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                      FIN   0x00008b    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+              LCD_INICIAR   0x000099    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+             _.org_0_009E   0x00009e    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                        I   0x0000a1    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                       I2   0x0000b7    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                   LCD_IN   0x0000c5    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                  EJECUTA   0x0000d1    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                   MANDAR   0x0000d7    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                     NEXT   0x0000da    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    DELAY   0x0000df    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                      DOS   0x0000e1    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                      UNO   0x0000e3    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    PAUSA   0x0000e8    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                    TRESx   0x0000ea    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                     DOSx   0x0000ec    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+                     UNOx   0x0000ee    program     static C:\Users\Leandro\Desktop\PROYECTOS\ASM\Conversor.X\Conversor.asm
+
+
